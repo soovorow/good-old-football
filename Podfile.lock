@@ -1,0 +1,34 @@
+PODS:
+  - Bolts (1.9.0):
+    - Bolts/AppLinks (= 1.9.0)
+    - Bolts/Tasks (= 1.9.0)
+  - Bolts/AppLinks (1.9.0):
+    - Bolts/Tasks
+  - Bolts/Tasks (1.9.0)
+  - FacebookCore (0.5.0):
+    - Bolts (~> 1.9)
+    - FBSDKCoreKit (~> 4.37)
+  - FBAudienceNetwork (5.1.0)
+  - FBSDKCoreKit (4.38.1):
+    - Bolts (~> 1.9)
+
+DEPENDENCIES:
+  - FacebookCore
+  - FBAudienceNetwork
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Bolts
+    - FacebookCore
+    - FBAudienceNetwork
+    - FBSDKCoreKit
+
+SPEC CHECKSUMS:
+  Bolts: ac6567323eac61e203f6a9763667d0f711be34c8
+  FacebookCore: 74288d0add931d361b1596beae787ab72c438249
+  FBAudienceNetwork: 95efd4f20dc44f97254dbd3dfe5a4d19164092a8
+  FBSDKCoreKit: 8d47857400e2f5bdea697a80daff882e91c84ef6
+
+PODFILE CHECKSUM: 3586f24a3b1214352e1462e4547f2065f3bbe7b2
+
+COCOAPODS: 1.5.2
